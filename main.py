@@ -134,16 +134,12 @@
 #   print(f"{letter}: {count}")
 
 # 5.1 pagal tema
-text = 'In this lecture we will review some additional functionalities of Python built-in data structures.'
+# text = 'In this lecture we will review some additional functionalities of Python built-in data structures.'
 # text = text.replace(" ", "").lower()
-occurrence = {letter: text.count(letter) for letter in text if letter.isalpha()}
-print(occurrence)
-for letter, frequency in occurrence.items():
-    print(f"{letter}: {frequency}")
-
-
-#   squares = {i: i * i for i in range(10)}
-# print(squares)
+# occurrence = {letter: text.count(letter) for letter in text if letter.isalpha()}
+# print(occurrence)
+# for letter, frequency in occurrence.items():
+#     print(f"{letter}: {frequency}")
 
 # 6. Write a program that checks if given number is a perfect square.
 
